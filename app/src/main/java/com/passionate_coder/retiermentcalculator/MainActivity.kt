@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
 
-        AppCenter.start(application,"2c22d333-a6d4-4ad3-ad53-1ed5d759fcf2",
+        AppCenter.start(application,"8c557645-240c-4703-95d4-2244f2c636a4",
             Analytics::class.java,Crashes::class.java)
 
         val future = Crashes.hasCrashedInLastSession()
